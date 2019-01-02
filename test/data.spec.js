@@ -43,7 +43,7 @@ describe('window.dataPokemon.sortData', () => {
     expect(window.dataPokemon.sortData(input, 'name', 'desc')).toEqual(output2);
   });
   it('debería retornar un nuevo array y no modificar el array original', () => {
-    expect(window.dataPokemon.sortData(input, 'name', 'desc')).toEqual(input);
+    expect(window.dataPokemon.sortData(input, 'name', 'asc')).toEqual(input);
   });
 }); 
 

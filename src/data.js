@@ -1,14 +1,18 @@
 const sortData = (data, sortBy, sortOrder) => {
   let newArraySort = [];
+  for (let i = 0; i < data.length; i++) {
+    newArraySort.push(Object.assign({}, data[i]));	   
+  }  
+ 
   switch (sortOrder) {
   case 'asc':
     if (sortBy === 'name') {
-      newArraySort = data.sort((elementA, elementB) => (elementA.name > elementB.name ? 1 : -1));
+      newArraySort = newArraySort.sort((elementA, elementB) => (elementA.name > elementB.name ? 1 : -1));
     }
     break;
   case 'desc':
     if (sortBy === 'name') {
-      newArraySort = data.sort((elementA, elementB) => (elementA.name < elementB.name ? 1 : -1));
+      newArraySort = newArraySort.sort((elementA, elementB) => (elementA.name < elementB.name ? 1 : -1));
     }
     break;
   }
@@ -17,8 +21,11 @@ const sortData = (data, sortBy, sortOrder) => {
 
 const filterData = (data, filterBy, condition) => {
   let newArrayFilter = [];
+  for (let i = 0; i < data.length; i++) {
+    newArrayFilter.push(Object.assign({}, data[i]));	   
+  }
   if (filterBy) {
-    newArrayFilter = data.filter(compare => (compare.type[0] === condition || compare.type[1] === condition || compare.type[2] === condition));
+    newArrayFilter = newArrayFilter.filter(compare => (compare.type[0] === condition || compare.type[1] === condition || compare.type[2] === condition));
   }
   return newArrayFilter;
 };
