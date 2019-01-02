@@ -76,14 +76,9 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 **Funcionalidad:** para tener una vista rápida de la información disponible de los pokemones.
 
-***
+**Definición de Terminado:**
 
-**Yo como**: usuario de la página web.
-
-**Quiero**: filtrar por tipo a los Pokémon.
-
-**Funcionalidad**: para identificarlo, conocerlo y para saber si un Pokémon es de más de 1 tipo.        
-
+![Sin titulo](src/img/Terminado-1.jpg)
 ***
 
 **Yo como**: usuario de la página web.
@@ -92,13 +87,31 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 **Funcionalidad**: para conocerlos y me ayuda a aprender los nombres.
 
+**Definición de Terminado:**   
+
+![Sin titulo](src/img/Terminado-2.jpg)
+***
+
+**Yo como**: usuario de la página web.
+
+**Quiero**: filtrar por tipo a los Pokémon.
+
+**Funcionalidad**: para identificarlo, conocerlo y para saber si un Pokémon es de más de 1 tipo.     
+
+**Definición de Terminado:**  
+
+![Sin titulo](src/img/Terminado-3.jpg)
 ***
 
 **Yo como**: usuario de la página web.      
 
-**Quiero**: ver el Pokémon que tiene la mayor y menor cantidad de caramelos.    
+**Quiero**: ver el Pokémon que tiene la mayor probabilidad que aparezca.    
 
-**Funcionalidad**: para conocer cuántos caramelos necesita para evolucionar.        
+**Funcionalidad**: para saber si es oportuno buscar un pokémon.   
+
+**Definición de Terminado**  
+
+![Sin titulo](src/img/Terminado-4.jpg)     
 ***
 
 ## Diseño de la Interfaz de Usuario
