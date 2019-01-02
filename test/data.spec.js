@@ -38,13 +38,13 @@ describe('window.dataPokemon.sortData', () => {
     expect(typeof window.dataPokemon.sortData).toBe('function');
   });
   it('debería retornar un nuevo array con los pokemones de A-Z', () => {
-    expect(window.dataPokemon.sortData(input, 'NAME', 'ASC')).toEqual(output);
+    expect(window.dataPokemon.sortData(input, 'name', 'asc')).toEqual(output);
   });
   it('debería retornar un nuevo array con los pokemones de Z-A', () => {
-    expect(window.dataPokemon.sortData(input, 'NAME', 'DESC')).toEqual(output2);
+    expect(window.dataPokemon.sortData(input, 'name', 'desc')).toEqual(output2);
   });
   it('debería retornar un nuevo array y no modificar el array original', () => {
-    expect(window.dataPokemon.sortData(input, 'NAME', 'ASC')).toEqual(input);
+    expect(window.dataPokemon.sortData(input, 'name', 'asc')).toEqual(input);
   });
 }); 
 
