@@ -20,8 +20,7 @@ const output2 = [
 
 const output3 = [
   { 'id': 1, 'num': '001', 'name': 'Bulbasaur', 'type': ['Grass', 'Poison'], 'candy_count': 25, 'spawn_chance': 0.69 },
-  { 'id': 2, 'num': '002', 'name': 'Ivysaur', 'type': ['Grass', 'Poison'], 'candy_count': 100, 'spawn_chance': 0.042 },
- 
+  { 'id': 2, 'num': '002', 'name': 'Ivysaur', 'type': ['Grass', 'Poison'], 'candy_count': 100, 'spawn_chance': 0.042 } 
 ];
 const output4 = 
   { 'id': 16, 'num': '016', 'name': 'Pidgey', 'type': ['Normal', 'Flying'], 'candy_count': 12, 'spawn_chance': 15.98 };
@@ -38,13 +37,13 @@ describe('window.dataPokemon.sortData', () => {
     expect(typeof window.dataPokemon.sortData).toBe('function');
   });
   it('debería retornar un nuevo array con los pokemones de A-Z', () => {
-    expect(window.dataPokemon.sortData(input, 'NAME', 'ASC')).toEqual(output);
+    expect(window.dataPokemon.sortData(input, 'name', 'asc')).toEqual(output);
   });
   it('debería retornar un nuevo array con los pokemones de Z-A', () => {
-    expect(window.dataPokemon.sortData(input, 'NAME', 'DESC')).toEqual(output2);
+    expect(window.dataPokemon.sortData(input, 'name', 'desc')).toEqual(output2);
   });
   it('debería retornar un nuevo array y no modificar el array original', () => {
-    expect(window.dataPokemon.sortData(input, 'NAME', 'ASC')).toEqual(input);
+    expect(window.dataPokemon.sortData(input, 'name', 'desc')).toEqual(input);
   });
 }); 
 

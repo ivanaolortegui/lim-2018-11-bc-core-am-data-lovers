@@ -47,6 +47,4 @@ const getCalculateValue = () => {
   const pokemon = window.dataPokemon.computeStats(pokemonData);
   listData([pokemon]);
 };
-btnCalculate.addEventListener('click', getCalculateValue); 
-
- 
+btnCalculate.addEventListener('click', getCalculateValue);
