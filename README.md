@@ -76,7 +76,8 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 **Funcionalidad:** para tener una vista rápida de la información disponible de los pokemones.
 
-**Definición de Terminado**
+**Definición de Terminado:**
+
 ![Sin titulo](src/img/Terminado-1.jpg)
 ***
 
@@ -86,7 +87,8 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 **Funcionalidad**: para conocerlos y me ayuda a aprender los nombres.
 
-**Definición de Terminado** 
+**Definición de Terminado:**   
+
 ![Sin titulo](src/img/Terminado-2.jpg)
 ***
 
@@ -96,7 +98,8 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 **Funcionalidad**: para identificarlo, conocerlo y para saber si un Pokémon es de más de 1 tipo.     
 
-**Definición de Terminado**
+**Definición de Terminado:**  
+
 ![Sin titulo](src/img/Terminado-3.jpg)
 ***
 
@@ -106,7 +109,8 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 **Funcionalidad**: para saber si es oportuno buscar un pokémon.   
 
-**Definición de Terminado**
+**Definición de Terminado**  
+
 ![Sin titulo](src/img/Terminado-4.jpg)     
 ***
 
