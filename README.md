@@ -138,6 +138,9 @@ Al testear nuestro protrotipo lo usarios nos sugirieron las siguientes mejoras:
 
 ![Sin titulo](src/img/mobile.gif)
 
+
+**El prototipo exportando al Zeplin** [_Zeplin_](https://zpl.io/29oKr6w)
+ 
 ### Paleta de Colores
 
 Muchos usuarios y compañeras nos recomendaron elegir una paleta de colores para ser más amigable. Utilizamos la herramienta de Adobe Color CC. Se importo la imagen del logo para obtener sus colores, y en base a esos colores obtuvismos las paleta de colores.
