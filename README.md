@@ -158,19 +158,19 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 
 Primero se integró con el plugin de Zeplin 
 
-![Sin titulo](src/img/Exportacion- zeplin.png)
+![Sin titulo](src/img/Exportacion-zeplin.png)
 
 Luego se exportó el diseño 
 
-![Sin titulo](src/img/(Exportacion- zeplin-2.png)
+![Sin titulo](src/img/(Exportacion-zeplin-2.png)
 
 Y al exportar nos salió una opción para exportar todo el prototipo a Zeplin 
 
-![Sin titulo](src/img/Exportacion- zeplin-3.png)
+![Sin titulo](src/img/Exportacion-zeplin-3.png)
 
 Zeplin nos proporcionó indicaciones de estilo como: el alineado, su tamaño, tipografía y colores de cada elemento para agilizar el proceso de maquetación.
 
-![Sin titulo](src/img/(Exportacion-zeplin-4.PNG)
+![Sin titulo](src/img/Exportacion-zeplin-4.png)
 
  [Link de Zeplin](https://zpl.io/29oKr6w)
  
