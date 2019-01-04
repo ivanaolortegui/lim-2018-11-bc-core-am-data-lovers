@@ -154,7 +154,7 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 ![Sin titulo](src/img/mobile.gif)
 
 
-### El diseño prototipo en Figma se exportando a [Zeplin](https://zeplin.io/)
+### El diseño prototipo en Figma se exportó a [Zeplin](https://zeplin.io/)
 
 Primero se integró con el plugin de Zeplin:
 
