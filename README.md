@@ -154,17 +154,17 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 ![Sin titulo](src/img/mobile.gif)
 
 
-#### El diseño prototipo en Figma se exportando a [Zeplin](https://zeplin.io/)
+### El diseño prototipo en Figma se exportando a [Zeplin](https://zeplin.io/)
 
-Primero se integró con el plugin de Zeplin 
+Primero se integró con el plugin de Zeplin:
 
 ![Sin titulo](src/img/Exportacion-zeplin.png)
 
-Luego se exportó el diseño 
+Luego se exportó el diseño:
 
-![Sin titulo](src/img/Exportacion-zeplin-2)
+![Sin titulo](src/img/Exportacion-zeplin-2.png)
 
-Y al exportar nos salió una opción para exportar todo el prototipo a Zeplin 
+Y al exportar nos salió una opción para exportar todo el prototipo a Zeplin:
 
 ![Sin titulo](src/img/Exportacion-zeplin-3.png)
 
