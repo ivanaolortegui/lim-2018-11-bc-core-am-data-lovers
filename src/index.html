@@ -5,7 +5,7 @@
   <title>Data Lovers</title>
   <link rel="icon" type="image/png" href="img/pokebolas.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />  
 </head>
 
 <body>
@@ -14,13 +14,15 @@
   </header>
   <form>
     <div class="options">
-      <select class="order-select" id="select-order">
-        <option value="">Ordenar por nombre:</option>
-        <option value="name-asc">A-Z</option>
-        <option value="name-desc">Z-A</option>
+      <select id="select-order">
+        <option>Ordenar por:</option>
+        <option value="name-asc">Nombre A-Z</option>
+        <option value="name-desc">Nombre Z-A</option> 
+        <option value="id-asc">Número 1-151</option>
+        <option value="id-desc">Número 151-1</option>       
       </select>
-      <select class="type-select" id="select-pokemon-type">
-        <option>Filtrar por tipos:</option>
+      <select id="select-filter-type">
+        <option>Filtrar por tipo:</option>
         <option value="Water">Agua</option>
         <option value="Bug">Bicho</option>
         <option value="Dragon">Dragón</option>
@@ -37,8 +39,15 @@
         <option value="Poison">Veneno</option>
         <option value="Flying">Volador</option>
       </select>
-      <button type="button" id="btn-calculateMax">Mayor % de aparición</button>
-      <button type="button" id="btn-calculateMin">Menor % de aparición</button>
+      <select id="select-filter-candy">
+        <option>Filtrar por caramelos:</option>
+        <option value="12">12</option>
+        <option value="25">25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="400">400</option>        
+      </select>
+      <button type="button" id="btn-calculateMax">Mayor % de aparición</button>      
     </div>
   </form>
   <div id="container-list" class="grid-ListFilter">
