@@ -3,16 +3,20 @@ const sortData = (data, sortBy, sortOrder) => {
   for (let i = 0; i < data.length; i++) {
     newArraySort.push(Object.assign({}, data[i]));	   
   }  
- 
+
   switch (sortOrder) {
   case 'asc':
     if (sortBy === 'name') {
       newArraySort = newArraySort.sort((elementA, elementB) => (elementA.name > elementB.name ? 1 : -1));
+    } else {
+      newArraySort = newArraySort.sort((elementA, elementB) => (elementA.id > elementB.id ? 1 : -1));
     }
     break;
   case 'desc':
     if (sortBy === 'name') {
       newArraySort = newArraySort.sort((elementA, elementB) => (elementA.name < elementB.name ? 1 : -1));
+    } else {
+      newArraySort = newArraySort.sort((elementA, elementB) => (elementA.id < elementB.id ? 1 : -1));
     }
     break;
   }
@@ -21,11 +25,10 @@ const sortData = (data, sortBy, sortOrder) => {
 
 const filterData = (data, filterBy, condition) => {
   let newArrayFilter = [];
-  for (let i = 0; i < data.length; i++) {
-    newArrayFilter.push(Object.assign({}, data[i]));	   
-  }
-  if (filterBy) {
-    newArrayFilter = newArrayFilter.filter(compare => (compare.type[0] === condition || compare.type[1] === condition || compare.type[2] === condition));
+  switch (filterBy) {
+  case 'Tipo':
+    newArrayFilter = data.filter(compare => (compare.type[0] === condition || compare.type[1] === condition));
+    break;
   }
   return newArrayFilter;
 };
@@ -36,8 +39,14 @@ const computeStats = (data) =>
       ? acum :
       element);
 
+const filterDataCandy = (data, condition) => {  
+  const newArrayFilter = data.filter(compare => (compare.candy_count === condition));
+  return newArrayFilter; 
+};
+
 window.dataPokemon = {
   sortData,
   filterData,
   computeStats,
+  filterDataCandy
 };

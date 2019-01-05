@@ -24,6 +24,7 @@ body {
   text-align: center;
   margin: 15px;
 }
+
 select {
   background: #215498;
   border-radius: 6px;
@@ -45,8 +46,9 @@ button {
   border-radius: 6px;
   border: 1px solid #ffffff;
   width: 14%;
-  }
-  button:hover {
+}
+
+button:hover {
     color: #ffffff;
     background-color: #6db9e6;
 }
@@ -58,9 +60,11 @@ button {
   grid-template-columns: 32% 32% 32%;
   padding: 20px;
 }
+
 .blog-card {  
   text-align: center;
 }
+
 .card-link {
   box-sizing: border-box;
   background-color: #89c3f3;
@@ -71,23 +75,19 @@ button {
   border-radius: 23px;
   overflow: hidden;  
 }
+
 .card-link h3 {
   margin: 0 0 6px 0;
 }
+
 .post-name {
    color: #215498;
    font-family: 'Roboto', sans-serif;;
    font-size: 130%;
    font-weight:bold;
    margin: 0 0 0 0;
- }
+}
 
-.post-number, .post-type, .post-spaw-chance {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  color: #314352
-   }
 .article-details {
     color: #333333;
     font-family: Roboto;
@@ -95,8 +95,9 @@ button {
     padding: 0;
     font-size: 100%;
     font-weight: bold;
-   }
-   @media only screen and (max-width: 890px){
+}
+
+@media only screen and (max-width: 890px){
     .grid-ListFilter {
       display: grid;
       grid-row-gap: 40px;
@@ -123,8 +124,8 @@ button {
         grid-row-gap: 40px;
         grid-column-gap: 5px; 
         grid-template-columns: auto;
-     }
-    
+    }
+
     select {
       width: 45%;
     }
@@ -132,3 +133,4 @@ button {
       width: 38%;
     } 
   }
+  
