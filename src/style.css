@@ -60,11 +60,6 @@ button:hover {
   grid-template-columns: 32% 32% 32%;
   padding: 20px;
 }
-
-.blog-card {  
-  text-align: center;
-}
-
 .card-link {
   box-sizing: border-box;
   background-color: #89c3f3;
@@ -76,25 +71,25 @@ button:hover {
   overflow: hidden;  
 }
 
-.card-link h3 {
-  margin: 0 0 6px 0;
+.blog-card {  
+  text-align: center;
+  margin: 0 0 0 0;
+  font-weight: bold;
 }
 
-.post-name {
+.name-details{
    color: #215498;
    font-family: 'Roboto', sans-serif;;
    font-size: 130%;
-   font-weight:bold;
-   margin: 0 0 0 0;
+   margin: 0 0 6px 0;
+  
 }
 
 .article-details {
     color: #333333;
     font-family: Roboto;
-    margin: 0;
     padding: 0;
-    font-size: 100%;
-    font-weight: bold;
+    font-size: 100%;  
 }
 
 @media only screen and (max-width: 890px){

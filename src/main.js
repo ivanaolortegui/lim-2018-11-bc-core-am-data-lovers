@@ -3,6 +3,7 @@ const containerList = document.getElementById('container-list');
 const btnCalculate = document.getElementById('btn-calculateMax');
 const selectFilterType = document.getElementById('select-filter-type');
 const selectFilterCandy = document.getElementById('select-filter-candy');
+const selectCountEgg = document.getElementById('select-filter-Egg');
 
 
 const listData = (data) => {
@@ -11,9 +12,11 @@ const listData = (data) => {
     const card = `
    <div class="card-link">
     <article class="blog-card">
-      <img class="post-image" src="${pokemon.img}" />
-        <div class="article-details">
+      <img src="${pokemon.img}" />
+        <div class="name-details">
         <h3 class="post-name">${pokemon.name}</h3>
+        </div>
+        <div class="article-details">
         <p class="article-details">Num: ${pokemon.num}</p>
         <p class="article-details">Tipo: ${pokemon.type.join(' & ')} </p>       
         <p class="article-details">Spawn Chance: ${pokemon.spawn_chance} %</p>
@@ -52,10 +55,18 @@ const getCalculateValue = () => {
 };
 btnCalculate.addEventListener('click', getCalculateValue); 
 
-const getFilterCandyValue = function() {
+const getFilterCandyValue = () => {
   const dataPokemon = window.POKEMON.pokemon;
   const candyPokemon = parseInt(selectFilterCandy.value);  
   const selectByCandy = window.dataPokemon.filterDataCandy(dataPokemon, candyPokemon);
   listData(selectByCandy);
 };
 selectFilterCandy.addEventListener('change', getFilterCandyValue); 
+
+const getEggValue = () => {
+  const dataPokemon = window.POKEMON.pokemon;
+  const valueOrder = selectCountEgg.value; 
+  containerList.innerHTML = window.dataPokemon.statsEgg(dataPokemon, valueOrder);
+};
+selectCountEgg.addEventListener('change', getEggValue);
+

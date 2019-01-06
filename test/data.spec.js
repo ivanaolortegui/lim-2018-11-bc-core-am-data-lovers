@@ -34,6 +34,12 @@ const output5 = [
   { 'candy_count': 12 },  
 ]; 
 
+const input3 = [
+  { 'egg': '2 km'}   
+];
+const output6 = [ 
+  14
+];
 
 describe('dataPokemon', () => {
   it('Debería ser un objeto', () => {
@@ -86,5 +92,14 @@ describe('dataPokemon.filterDataCandy', () => {
   });
   it('debería retornar un array con el tipo de pokémon seleccionado', () => {
     expect(window.dataPokemon.filterDataCandy(input2, 12)).toEqual(output5);
+  });
+}); 
+
+describe('dataPokemon.statsEgg', () => {
+  it('debería ser una función', () => {
+    expect(typeof window.dataPokemon.statsEgg).toBe('function');
+  });
+  it('debería retornar un array con el tipo de pokémon seleccionado', () => {
+    expect(window.dataPokemon.statsEgg(input3, 12)).toEqual(output6);
   });
 }); 
