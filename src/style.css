@@ -125,7 +125,6 @@ button:hover {
         grid-column-gap: 5px; 
         grid-template-columns: auto;
     }
-
     select {
       width: 45%;
     }

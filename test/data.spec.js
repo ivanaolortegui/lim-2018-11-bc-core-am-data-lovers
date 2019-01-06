@@ -24,7 +24,7 @@ const output2 = [
 
 const output3 = [
   { 'id': 1, 'num': '001', 'name': 'Bulbasaur', 'type': ['Grass', 'Poison'], 'candy_count': 25, 'spawn_chance': 0.69 },
-  { 'id': 2, 'num': '002', 'name': 'Ivysaur', 'type': ['Grass', 'Poison'], 'candy_count': 100, 'spawn_chance': 0.042 }
+  { 'id': 2, 'num': '002', 'name': 'Ivysaur', 'type': ['Grass', 'Poison'], 'candy_count': 100, 'spawn_chance': 0.042 } 
 ];
 
 const output4 =
