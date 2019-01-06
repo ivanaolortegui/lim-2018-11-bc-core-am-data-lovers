@@ -39,14 +39,14 @@ const getOrderValue = () => {
 };
 selectOrder.addEventListener('change', getOrderValue);
 
-const typePokemonValue = function() {
+const getFilterTypeValue = function() {
   const typeData = window.POKEMON.pokemon;
   const filterCondicion = 'Tipo';
   const typePokemonValue = selectFilterType.value;
   const selectByType = window.dataPokemon.filterData(typeData, filterCondicion, typePokemonValue);
   listData(selectByType);
 };
-selectFilterType.addEventListener('change', typePokemonValue);
+selectFilterType.addEventListener('change', getFilterTypeValue);
 
 const getCalculateValue = () => {
   const pokemonData = window.POKEMON.pokemon;
