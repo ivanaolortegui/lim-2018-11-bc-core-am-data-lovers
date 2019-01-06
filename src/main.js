@@ -1,9 +1,7 @@
 const selectOrder = document.getElementById('select-order');
 const containerList = document.getElementById('container-list');
 const btnCalculate = document.getElementById('btn-calculateMax');
-const selectFilterType = document.getElementById('select-filter-type');
-const selectFilterCandy = document.getElementById('select-filter-candy');
-
+const selectPokemonType = document.getElementById('select-pokemon-type');
 
 const listData = (data) => {
   let templateListOfCards = '';
@@ -11,13 +9,12 @@ const listData = (data) => {
     const card = `
    <div class="card-link">
     <article class="blog-card">
-      <img class="post-image" src="${pokemon.img}" />
+      <img class="post-image" src="${ pokemon.img}" />
+        <h3 class="post-name">${ pokemon.name}</h3>
         <div class="article-details">
-        <h3 class="post-name">${pokemon.name}</h3>
-        <p class="article-details">Num: ${pokemon.num}</p>
-        <p class="article-details">Tipo: ${pokemon.type.join(' & ')} </p>       
-        <p class="article-details">Spawn Chance: ${pokemon.spawn_chance} %</p>
-        <p class="article-details">Caramelos: ${pokemon.candy_count}</p>           
+        <p class="post-number">Num: ${ pokemon.num}</p>
+        <p class="post-type">Tipo: ${ pokemon.type.join(' & ')} </p>       
+        <p class="post-spaw-chance">Spawn Chance: ${ pokemon.spawn_chance} %</p>
        </div>
     </article>
    </div>`;
@@ -31,31 +28,25 @@ const getOrderValue = () => {
   const pokemonData = window.POKEMON.pokemon;
   const valueOrder = selectOrder.value;
   const valueSelectOrder = (valueOrder.split('-'));
-  const selectByOrder = window.dataPokemon.sortData(pokemonData, valueSelectOrder[0], valueSelectOrder[1], valueSelectOrder[2], valueSelectOrder[3]);
+  const selectByOrder = window.dataPokemon.sortData(pokemonData, valueSelectOrder[0], valueSelectOrder[1]);
   listData(selectByOrder);
 };
 selectOrder.addEventListener('change', getOrderValue);
 
-const getFilterTypeValue = function() {
-  const pokemonData = window.POKEMON.pokemon;
-  const filterBy = 'Tipo';
-  const typePokemonValue = selectFilterType.value;
-  const selectByType = window.dataPokemon.filterData(pokemonData, filterBy, typePokemonValue);
+const typePokemonValue = function() {
+  const typeData = window.POKEMON.pokemon;
+  const filterCondicion = 'Tipo';
+  const typePokemonValue = selectPokemonType.value;
+  const selectByType = window.dataPokemon.filterData(typeData, filterCondicion, typePokemonValue);
   listData(selectByType);
 };
-selectFilterType.addEventListener('change', getFilterTypeValue);
+selectPokemonType.addEventListener('change', typePokemonValue);
 
 const getCalculateValue = () => {
   const pokemonData = window.POKEMON.pokemon;
-  const spawnChanceMax = window.dataPokemon.computeStats(pokemonData);
-  listData([spawnChanceMax]);
+  const pokemon = window.dataPokemon.computeStats(pokemonData);
+  listData([pokemon]);
 };
 btnCalculate.addEventListener('click', getCalculateValue); 
 
-const getFilterCandyValue = function() {
-  const dataPokemon = window.POKEMON.pokemon;
-  const candyPokemon = parseInt(selectFilterCandy.value);  
-  const selectByCandy = window.dataPokemon.filterDataCandy(dataPokemon, candyPokemon);
-  listData(selectByCandy);
-};
-selectFilterCandy.addEventListener('change', getFilterCandyValue); 
+ 
