@@ -44,9 +44,31 @@ const filterDataCandy = (data, condition) => {
   return newArrayFilter; 
 };
 
+function statsEgg(data, condition) {
+  if (condition === 'Not') {
+    const newArrayFilter = data.filter(compare => (compare.egg === 'Not in Eggs'));
+    const cantEgg = newArrayFilter.length;
+    return cantEgg;
+  } else if (condition === '2') {
+    const newArrayFilter = data.filter(compare => (compare.egg === '2 km'));
+    const cantEgg = newArrayFilter.length;
+    return cantEgg;
+  } else if (condition === '5') {
+    const newArrayFilter = data.filter(compare => (compare.egg === '5 km'));
+    const cantEgg = newArrayFilter.length;
+    return cantEgg;
+  } else {
+    const newArrayFilter = data.filter(compare => (compare.egg === '10 km'));
+    const cantEgg = newArrayFilter.length;
+    return cantEgg;
+  }
+}
+
+
 window.dataPokemon = {
   sortData,
   filterData,
   computeStats,
-  filterDataCandy
+  filterDataCandy,
+  statsEgg
 };
