@@ -7,7 +7,7 @@ const input = [
 ];
 
 const input2 = [
-  { 'candy_count': 12 }, 
+  { 'candy_count': 12 }
 ];
 
 const output = [
@@ -24,21 +24,14 @@ const output2 = [
 
 const output3 = [
   { 'id': 1, 'num': '001', 'name': 'Bulbasaur', 'type': ['Grass', 'Poison'], 'candy_count': 25, 'spawn_chance': 0.69 },
-  { 'id': 2, 'num': '002', 'name': 'Ivysaur', 'type': ['Grass', 'Poison'], 'candy_count': 100, 'spawn_chance': 0.042 } 
+  { 'id': 2, 'num': '002', 'name': 'Ivysaur', 'type': ['Grass', 'Poison'], 'candy_count': 100, 'spawn_chance': 0.042 }
 ];
 
 const output4 =
   { 'id': 16, 'num': '016', 'name': 'Pidgey', 'type': ['Normal', 'Flying'], 'candy_count': 12, 'spawn_chance': 15.98 };
 
-const output5 = [ 
-  { 'candy_count': 12 },  
-]; 
-
-const input3 = [
-  { 'egg': '2 km'}   
-];
-const output6 = [ 
-  14
+const output5 = [
+  { 'candy_count': 12 },
 ];
 
 describe('dataPokemon', () => {
@@ -68,12 +61,12 @@ describe('window.dataPokemon.sortData', () => {
   });
 });
 
-describe('window.dataPokemon.filterData', () => {
+describe('window.dataPokemon.filterDataType', () => {
   it('Debería ser una función', () => {
-    expect(typeof window.dataPokemon.filterData).toBe('function');
+    expect(typeof window.dataPokemon.filterDataType).toBe('function');
   });
   it('Debería retornar un array de objetos con los pokemones que sean de tipo Veneno', () => {
-    expect(window.dataPokemon.filterData(input, 'Tipo', 'Poison')).toEqual(output3);
+    expect(window.dataPokemon.filterDataType(input, 'Tipo', 'Poison')).toEqual(output3);
   });
 });
 
@@ -90,16 +83,8 @@ describe('dataPokemon.filterDataCandy', () => {
   it('debería ser una función', () => {
     expect(typeof window.dataPokemon.filterDataCandy).toBe('function');
   });
-  it('debería retornar un array con el tipo de pokémon seleccionado', () => {
+  it('debería retornar un array con el tipo de caramelos seleccionado', () => {
     expect(window.dataPokemon.filterDataCandy(input2, 12)).toEqual(output5);
   });
-}); 
+});
 
-describe('dataPokemon.statsEgg', () => {
-  it('debería ser una función', () => {
-    expect(typeof window.dataPokemon.statsEgg).toBe('function');
-  });
-  it('debería retornar un array con el tipo de pokémon seleccionado', () => {
-    expect(window.dataPokemon.statsEgg(input3, 12)).toEqual(output6);
-  });
-}); 

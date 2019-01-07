@@ -23,7 +23,7 @@ const sortData = (data, sortBy, sortOrder) => {
   return newArraySort;
 };
 
-const filterData = (data, filterBy, condition) => {
+const filterDataType = (data, filterBy, condition) => {
   let newArrayFilter = [];
   switch (filterBy) {
   case 'Tipo':
@@ -44,31 +44,9 @@ const filterDataCandy = (data, condition) => {
   return newArrayFilter; 
 };
 
-function statsEgg(data, condition) {
-  if (condition === 'Not') {
-    const newArrayFilter = data.filter(compare => (compare.egg === 'Not in Eggs'));
-    const cantEgg = newArrayFilter.length;
-    return cantEgg;
-  } else if (condition === '2') {
-    const newArrayFilter = data.filter(compare => (compare.egg === '2 km'));
-    const cantEgg = newArrayFilter.length;
-    return cantEgg;
-  } else if (condition === '5') {
-    const newArrayFilter = data.filter(compare => (compare.egg === '5 km'));
-    const cantEgg = newArrayFilter.length;
-    return cantEgg;
-  } else {
-    const newArrayFilter = data.filter(compare => (compare.egg === '10 km'));
-    const cantEgg = newArrayFilter.length;
-    return cantEgg;
-  }
-}
-
-
 window.dataPokemon = {
   sortData,
-  filterData,
+  filterDataType,
   computeStats,
-  filterDataCandy,
-  statsEgg
+  filterDataCandy, 
 };

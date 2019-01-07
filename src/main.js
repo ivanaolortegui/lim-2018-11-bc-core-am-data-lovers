@@ -1,10 +1,8 @@
 const selectOrder = document.getElementById('select-order');
 const containerList = document.getElementById('container-list');
-const btnCalculate = document.getElementById('btn-calculateMax');
+const btnCalculateMax = document.getElementById('btn-calculateMax');
 const selectFilterType = document.getElementById('select-filter-type');
 const selectFilterCandy = document.getElementById('select-filter-candy');
-const selectCountEgg = document.getElementById('select-filter-Egg');
-
 
 const listData = (data) => {
   let templateListOfCards = '';
@@ -43,30 +41,24 @@ const getFilterTypeValue = function() {
   const pokemonData = window.POKEMON.pokemon;
   const filterBy = 'Tipo';
   const typePokemonValue = selectFilterType.value;
-  const selectByType = window.dataPokemon.filterData(pokemonData, filterBy, typePokemonValue);
-  listData(selectByType);
+  const filterDataTypeValue = window.dataPokemon.filterDataType(pokemonData, filterBy, typePokemonValue);
+  listData(filterDataTypeValue);
 };
 selectFilterType.addEventListener('change', getFilterTypeValue);
 
 const getCalculateValue = () => {
   const pokemonData = window.POKEMON.pokemon;
-  const spawnChanceMax = window.dataPokemon.computeStats(pokemonData);
-  listData([spawnChanceMax]);
+  const computeStatsValue = window.dataPokemon.computeStats(pokemonData);
+  listData([computeStatsValue]);
 };
-btnCalculate.addEventListener('click', getCalculateValue); 
+btnCalculateMax.addEventListener('click', getCalculateValue); 
 
 const getFilterCandyValue = () => {
-  const dataPokemon = window.POKEMON.pokemon;
+  const pokemonData = window.POKEMON.pokemon;
   const candyPokemon = parseInt(selectFilterCandy.value);  
-  const selectByCandy = window.dataPokemon.filterDataCandy(dataPokemon, candyPokemon);
-  listData(selectByCandy);
+  const filterDataCandyValue = window.dataPokemon.filterDataCandy(pokemonData, candyPokemon);
+  listData(filterDataCandyValue);
 };
 selectFilterCandy.addEventListener('change', getFilterCandyValue); 
 
-const getEggValue = () => {
-  const dataPokemon = window.POKEMON.pokemon;
-  const valueOrder = selectCountEgg.value; 
-  containerList.innerHTML = window.dataPokemon.statsEgg(dataPokemon, valueOrder);
-};
-selectCountEgg.addEventListener('change', getEggValue);
 
