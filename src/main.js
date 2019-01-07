@@ -32,8 +32,8 @@ const getOrderValue = () => {
   const pokemonData = window.POKEMON.pokemon;
   const valueOrder = selectOrder.value;
   const valueSelectOrder = (valueOrder.split('-'));
-  const selectByOrder = window.dataPokemon.sortData(pokemonData, valueSelectOrder[0], valueSelectOrder[1], valueSelectOrder[2], valueSelectOrder[3]);
-  listData(selectByOrder);
+  const sortDataValue = window.dataPokemon.sortData(pokemonData, valueSelectOrder[0], valueSelectOrder[1], valueSelectOrder[2], valueSelectOrder[3]);
+  listData(sortDataValue);
 };
 selectOrder.addEventListener('change', getOrderValue);
 

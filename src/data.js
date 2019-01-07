@@ -1,3 +1,4 @@
+// Function to sort by name and ascending descending id.
 const sortData = (data, sortBy, sortOrder) => {
   let newArraySort = [];
   for (let i = 0; i < data.length; i++) {
@@ -23,6 +24,7 @@ const sortData = (data, sortBy, sortOrder) => {
   return newArraySort;
 };
 
+// Function to filter by type of Pokémon
 const filterDataType = (data, filterBy, condition) => {
   let newArrayFilter = [];
   switch (filterBy) {
@@ -33,16 +35,18 @@ const filterDataType = (data, filterBy, condition) => {
   return newArrayFilter;
 };
 
+// Function to filter by quantity of candies
+const filterDataCandy = (data, condition) => {  
+  const newArrayFilter = data.filter(compare => (compare.candy_count === condition));
+  return newArrayFilter; 
+};
+
+// Function to calculate maximun spaw chance of Pokemon
 const computeStats = (data) =>
   data.reduce((acum, element) =>
     (acum.spawn_chance > element.spawn_chance)
       ? acum :
       element);
-
-const filterDataCandy = (data, condition) => {  
-  const newArrayFilter = data.filter(compare => (compare.candy_count === condition));
-  return newArrayFilter; 
-};
 
 window.dataPokemon = {
   sortData,
