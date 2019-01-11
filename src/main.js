@@ -61,4 +61,10 @@ const getFilterCandyValue = () => {
 };
 selectFilterCandy.addEventListener('change', getFilterCandyValue); 
 
-
+/* fetch('https://raw.githubusercontent.com/Laboratoria/lim-2018-11-bc-core-am-data-lovers/master/src/data/pokemon/pokemon.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    let dataPokemonfetch = data.pokemon
+  });  */

@@ -54,3 +54,4 @@ window.dataPokemon = {
   computeStats,
   filterDataCandy, 
 };
+
