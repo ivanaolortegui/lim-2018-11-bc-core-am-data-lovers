@@ -14,8 +14,22 @@ Del proceso de diseño
 Con la información obtenida en las entrevistas se prosiguió ha crear los sketches con papel y lápiz plasmando la distribución de los elementos para la interfaz, y previniendo cómo el usuario interactuaría, luego se pidió a 3 usuarios que los revisaran para conocer qué tan intuitivo y amigable les parecía. Con los comentarios y sugerencias de los usuarios se encontraron aspectos a mejorar. Luego continuamos con la elaboración del prototipo de alta fidelidad con la herramienta Figma.
 Con el feedback recibido se prosiguió con la implementación del producto con css, html y para su funcionalidad usamos el lenguaje de programación JavaScript. 	
    
-¿Cómo crees que el producto resuelve el problema (o problemas) que tiene tu usuario?
-Creemos que el producto creado brinda información relevante acerca de los Pokémons para los jugadores de Pokémon Go.
+¿Cómo crees que el producto resuelve el problema (o problemas) que tiene tu usuario?  
+
+Creemos que el producto creado brinda información relevante acerca de los Pokémons para los jugadores de Pokémon Go y una serie de data que los ayudará a tomar decisiones más inteligentes a la hora de elegir un Pokémon o para aprender más sobre sus características.
+
+## Principales usuarios del producto 
+
+Los principales usuarios son los jugadores principiantes del juego Pokémon Go, quienes aún no conocen la amplia gama de pokemones del juego y las características más importantes para ser un buen entrenador.
+
+## Objetivo de los usuarios
+
+Los objetivos que buscan nuestros usuarios es una interfaz que le permita:
+
+- Ver la lista de los pokemones del Juego con su foto, nombre, tipo al cual pertenece, número de caramelos y porcentaje de probabilidad de aparición
+- Ordenar de manera ascendente o descendente a las pokemones según su nombre y número de id.
+- Poder filtrar por el tipo de pokémon y por el número de caramelos de los Pokemones.
+- Obtener el pokémon con el mayor porcentaje de aparición.
 
 ## Entrevista
 
