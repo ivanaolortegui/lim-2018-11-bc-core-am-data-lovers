@@ -74,7 +74,7 @@ Me gusta la aparición de 'Días de comunidad' ya que muchos aficionados se reun
 
 Para complementar más las investigación sobre la necesidades de los usuarios del juego Pokémon Go, hicimos una **encuesta** con la herramienta Google forms para jerarquizar la información más relevante que desea saber el público objetivo.
 
-[Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeosWC9LZtFqn39gnxNlxbC6KX5aiEcmkozPMS-CCaWYBS4Dw/viewform)
+[Link a nuestra Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeosWC9LZtFqn39gnxNlxbC6KX5aiEcmkozPMS-CCaWYBS4Dw/viewform)
 
 ![Sin titulo](src/img/Captura-encuesta.PNG)
 
@@ -170,9 +170,9 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 ### Testeo de usabilidad
 
 Una vez realizados nuevos test, se concluye que es necesario: 
-* Añadir un logo al producto para hacerlo más amigable.
-* Cambiar el fondo, ya que le robaba protagonismo a la cards de los pokemones.
-* Cambiar la paleta de colores.
+* Añadir un **logo** al producto para hacerlo más amigable.
+* Cambiar la **imagen fondo**, ya que le robaba protagonismo a la cards de los pokemones.
+* Cambiar la **paleta de colores**.
 
 ### El diseño prototipo en Figma se exportó a [Zeplin](https://zeplin.io/)
 
@@ -196,4 +196,11 @@ Se realizó otra iteración con otra imagen de fondo, se agregó un logo y una p
 [Link de Figma](https://www.figma.com/file/0gcygDZ86Prvn7Fi4tQ4CyjB/3ra-iteraci%C3%B3n-de-Pokemon-Lovers?node-id=33%3A13).
 
 ![Sin titulo](readme-img/3ra-iteracion.gif)
+
 ![Sin titulo](readme-img/3ra-iteracion-mobile.gif)
+
+### Testeo de usabilidad
+
+* Añadir un botón scroll para subir hacia arriba.
+* Disminuir el tamaño del logo.
+* Agregar un Menú de navegación y un Footer para darle más personalidad al sitio web.
