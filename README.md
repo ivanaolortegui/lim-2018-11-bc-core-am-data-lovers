@@ -63,15 +63,15 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 [Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeosWC9LZtFqn39gnxNlxbC6KX5aiEcmkozPMS-CCaWYBS4Dw/viewform)
 
-![Sin titulo](src/img/Captura-encuesta.PNG)
+![Sin titulo](src/img/img-readme/Captura-encuesta.PNG)
 
-![Sin titulo](src/img/Captura-encuesta-2.PNG)
+![Sin titulo](src/img/img-readme/Captura-encuesta-2.PNG)
 
 
 **Obtuvimos los siguientes resultados:**
 
-![Sin titulo](src/img/estadistica.jpg)
-![Sin titulo](src/img/descripcion-de-respuestas.jpg)
+![Sin titulo](src/img/img-readme/estadistica.jpg)
+![Sin titulo](src/img/img-readme/descripcion-de-respuestas.jpg)
 
 ## Historias de usuario
 
@@ -121,7 +121,7 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 Luego de las entrevista  realizamos un sketch o boceto de lo que sería el producto teniendo en cuenta la necesidad principal del usuario que era conocer todos los tipos de Pokémons y saber si un Pokémon tiene más de un tipo.
 
-![Sin titulo](src/img/Sketch-1.PNG)
+![Sin titulo](src/img/img-readme/Sketch-1.PNG)
 
 
 Teniendo los sketchs ya mencionados, creímos conveniente ralizar una prueba de testeo es así que pedimos a 3 usuarios que los revisaran para detectar qué tan intuitivo y amigable les parecía.
@@ -130,7 +130,7 @@ Posterior al testeo estas personas nos dieron su opinión y nos dijeron qué deb
 * Los usuarios quieren ver primero toda la lista de pokémons sin ningún filtro.
 * Un cálculo sobre que Pokémons necesitan más o menos caramelos para evolucionar y se calcule justo en el mismo tag select donde se ordena a los Pokémons por nombre de la A-Z y de la Z-A.
 
-![Sin titulo](src/img/Sketch-2.JPG)
+![Sin titulo](src/img/img-readme/Sketch-2.JPG)
 
 
 ### Prototipo de alta fidelidad
@@ -138,10 +138,10 @@ Posterior al testeo estas personas nos dieron su opinión y nos dijeron qué deb
 Diseñamos un prototipo con la Herramienta [_Figma_](https://www.figma.com/)
 
 
-![Sin titulo](src/img/Protipo-1.PNG)
+![Sin titulo](src/img/img-readme/Protipo-1.PNG)
 
 
- ![Sin titulo](src/img/Prototipo-2.PNG)
+ ![Sin titulo](src/img/img-readme/Prototipo-2.PNG)
 
 
 Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras: 
@@ -149,28 +149,28 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 * Eliminar el botón de buscar porque al dar click en las opciones del select automáticamente se ordena.
 * Y por último dar un color mas oscuro a los botones de tipos de Pokémons para hacer más contraste con las letras.
 
-![Sin titulo](src/img/prototipo.gif)
+![Sin titulo](src/img/img-readme/prototipo.gif)
 
-![Sin titulo](src/img/mobile.gif)
+![Sin titulo](src/img/img-readme/mobile.gif)
 
 
 ### El diseño prototipo en Figma se exportó a [Zeplin](https://zeplin.io/)
 
 Primero se integró con el plugin de Zeplin:
 
-![Sin titulo](src/img/Exportacion-zeplin.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin.png)
 
 Luego se exportó el diseño:
 
-![Sin titulo](src/img/Exportacion-zeplin-2.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin-2.png)
 
 Y al exportar nos salió una opción para exportar todo el prototipo a Zeplin:
 
-![Sin titulo](src/img/Exportacion-zeplin-3.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin-3.png)
 
 Zeplin nos proporcionó indicaciones de estilo como: el alineado, su tamaño, tipografía y colores de cada elemento para agilizar el proceso de maquetación.
 
-![Sin titulo](src/img/Exportacion-zeplin-4.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin-4.png)
 
  [Link de Zeplin](https://zpl.io/29oKr6w)
  
@@ -179,10 +179,10 @@ Zeplin nos proporcionó indicaciones de estilo como: el alineado, su tamaño, ti
 Nos guiamos del logo del juego Pókemon Go para definir la paleta de colores, este proceso fue apoyado con el uso de la herramienta de Adobe Color CC, importando la imagen del logo para obtener sus colores. 
 
 
-![Sin titulo](src/img/Paleta-logo.png)
+![Sin titulo](src/img/img-readme/Paleta-logo.png)
 
 
 **Y sus códigos Hex son:**
 
 
-![Sin titulo](src/img/Paleta-logo-2.png)
+![Sin titulo](src/img/img-readme/Paleta-logo-2.png)
