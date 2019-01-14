@@ -188,6 +188,12 @@ Una vez realizados nuevos test, se concluye que es necesario:
  
 ### Paleta de Colores
 
-Nos guiamos del logo del juego Pókemon Go para definir la paleta de colores, este proceso fue apoyado con el uso de la herramienta de Adobe Color CC, importando la imagen del logo para obtener sus colores **Y sus códigos Hex son:**.
+Nos guiamos del logo del juego Pókemon Go para definir la paleta de colores, este proceso fue apoyado con el uso de la herramienta de Adobe Color CC, importando la imagen del logo para obtener sus colores. **Y sus códigos Hex son:**.
 <!-- ![Sin titulo](src/img/Paleta-logo.png) -->
 ![Sin titulo](src/img/Paleta-logo-2.png)
+
+Se realizó otra iteración con otra imagen de fondo, se agregó un logo y una paleta de colores:
+[Link de Figma](https://www.figma.com/file/0gcygDZ86Prvn7Fi4tQ4CyjB/3ra-iteraci%C3%B3n-de-Pokemon-Lovers?node-id=33%3A13).
+
+![Sin titulo](readme-img/3ra-iteracion.gif)
+![Sin titulo](readme-img/3ra-iteracion-mobile.gif)
