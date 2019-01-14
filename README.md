@@ -170,33 +170,19 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 
 ### El diseño prototipo en Figma se exportó a [Zeplin](https://zeplin.io/)
 
-Primero se integró con el plugin de Zeplin:
-
+1. Primero se integró con el plugin de Zeplin.
+2. Luego se exportó el diseño.
+3. Y al exportar nos salió la opción para exportar todo el prototipo a Zeplin.
+4. Zeplin nos proporcionó indicaciones de estilo como: el alineado, su tamaño, tipografía y colores de cada elemento para agilizar el proceso de maquetación.
+[Link de Zeplin](https://zpl.io/29oKr6w)
 ![Sin titulo](src/img/Exportacion-zeplin.png)
-
-Luego se exportó el diseño:
-
 ![Sin titulo](src/img/Exportacion-zeplin-2.png)
-
-Y al exportar nos salió una opción para exportar todo el prototipo a Zeplin:
-
 ![Sin titulo](src/img/Exportacion-zeplin-3.png)
-
-Zeplin nos proporcionó indicaciones de estilo como: el alineado, su tamaño, tipografía y colores de cada elemento para agilizar el proceso de maquetación.
-
 ![Sin titulo](src/img/Exportacion-zeplin-4.png)
-
- [Link de Zeplin](https://zpl.io/29oKr6w)
  
 ### Paleta de Colores
 
-Nos guiamos del logo del juego Pókemon Go para definir la paleta de colores, este proceso fue apoyado con el uso de la herramienta de Adobe Color CC, importando la imagen del logo para obtener sus colores. 
-
+Nos guiamos del logo del juego Pókemon Go para definir la paleta de colores, este proceso fue apoyado con el uso de la herramienta de Adobe Color CC, importando la imagen del logo para obtener sus colores **Y sus códigos Hex son:**.
 
 ![Sin titulo](src/img/Paleta-logo.png)
-
-
-**Y sus códigos Hex son:**
-
-
 ![Sin titulo](src/img/Paleta-logo-2.png)
