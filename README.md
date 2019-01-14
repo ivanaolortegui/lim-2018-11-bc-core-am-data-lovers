@@ -71,7 +71,6 @@ Me gusta la aparición de 'Días de comunidad' ya que muchos aficionados se reun
 
 
 ### Encuesta 
-***
 
 Para complementar más las investigación sobre la necesidades de los usuarios del juego Pokémon Go, hicimos una **encuesta** con la herramienta Google forms para jerarquizar la información más relevante que desea saber el público objetivo.
 
@@ -159,15 +158,21 @@ Diseñamos un prototipo con la Herramienta [_Figma_](https://www.figma.com/)
  ![Sin titulo](src/img/Prototipo-2.PNG)
 
 ### Testeo de usabilidad
+
 Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras: 
 * Hacer más interactivo el prototipo en especial la forma del select porque parecían ser varios select o botones.
 * Eliminar el botón de buscar porque al dar click en las opciones del select automáticamente se ordena.
 * Y por último dar un color mas oscuro a los botones de tipos de Pokémons para hacer más contraste con las letras.
-
 ![Sin titulo](src/img/prototipo.gif)
 
 ![Sin titulo](src/img/mobile.gif)
 
+### Testeo de usabilidad
+
+Una vez realizados nuevos test, se concluye que es necesario: 
+* Añadir un logo al producto para hacerlo más amigable.
+* Cambiar el fondo, ya que le robaba protagonismo a la cards de los pokemones.
+* Cambiar la paleta de colores.
 
 ### El diseño prototipo en Figma se exportó a [Zeplin](https://zeplin.io/)
 
