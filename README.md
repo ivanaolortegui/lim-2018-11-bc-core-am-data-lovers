@@ -201,6 +201,9 @@ Se realizó otra iteración con otra imagen de fondo, se agregó un logo y una p
 
 ### Testeo de usabilidad
 
-* Añadir un botón scroll para subir hacia arriba.
-* Disminuir el tamaño del logo.
-* Agregar un Menú de navegación y un Footer para darle más personalidad al sitio web.
+**Conclusiones:**
+
+* Todos los usuarios sugirieron añadir un botón scroll que suba rápidamente hacia arriba, ya es muy incomodo estar subiendo bastante con el scroll del mouse.
+* Se ha visto que el logotipo quita mucho espacio en la pantalla por lo que se debería disminuir el tamaño del logotipo.
+* Con respecto al diseño uno de los usuarios sugirió agregar un Menú de navegación y un Footer para darle más personalidad al sitio web.
+* Para los pokemones que no cuenta con cantidades de caramelos en vez de usar **undefined**, usar otro término que oriente la usuario porque no recibe lo que espera.
