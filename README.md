@@ -207,3 +207,7 @@ Se realizó otra iteración con otra imagen de fondo, se agregó un logo y una p
 * Se ha visto que el logotipo quita mucho espacio en la pantalla por lo que se debería disminuir el tamaño del logotipo.
 * Con respecto al diseño uno de los usuarios sugirió agregar un Menú de navegación y un Footer para darle más personalidad al sitio web.
 * Para los pokemones que no cuenta con cantidades de caramelos en vez de usar **undefined**, usar otro término que oriente la usuario porque no recibe lo que espera.
+
+Al detectar los problemas de usabilidad se realizó la cuarta iteración en version mobile:
+
+![Sin titulo](readme-img/4ta-iteracion-mobile.gif)
