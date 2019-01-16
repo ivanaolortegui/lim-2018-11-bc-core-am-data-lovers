@@ -76,15 +76,15 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 [Link a nuestra Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeosWC9LZtFqn39gnxNlxbC6KX5aiEcmkozPMS-CCaWYBS4Dw/viewform)
 
-![Sin titulo](src/img/Captura-encuesta.PNG)
+![Sin titulo](src/img/img-readme/Captura-encuesta.PNG)
 
-![Sin titulo](src/img/Captura-encuesta-2.PNG)
+![Sin titulo](src/img/img-readme/Captura-encuesta-2.PNG)
 
 
 **Obtuvimos los siguientes resultados:**
 
-![Sin titulo](src/img/estadistica.jpg)
-![Sin titulo](src/img/descripcion-de-respuestas.jpg)
+![Sin titulo](src/img/img-readme/estadistica.jpg)
+![Sin titulo](src/img/img-readme/descripcion-de-respuestas.jpg)
 
 ## Historias de usuario
 
@@ -135,7 +135,7 @@ Para complementar más las investigación sobre la necesidades de los usuarios d
 
 Luego de las entrevista  realizamos un sketch o boceto de lo que sería el producto teniendo en cuenta la necesidad principal del usuario que era conocer todos los tipos de Pokémons y saber si un Pokémon tiene más de un tipo.
 
-![Sin titulo](src/img/Sketch-1.PNG)
+![Sin titulo](src/img/img-readme/Sketch-1.PNG)
 
 ### Testeo de usabilidad
 Teniendo los sketchs ya mencionados, creímos conveniente ralizar una prueba de testeo es así que pedimos a 3 usuarios que los revisaran para detectar qué tan intuitivo y amigable les parecía.
@@ -144,7 +144,7 @@ Posterior al testeo estas personas nos dieron su opinión y nos dijeron qué deb
 * Los usuarios quieren ver primero toda la lista de pokémons sin ningún filtro.
 * Un cálculo sobre que Pokémons necesitan más o menos caramelos para evolucionar y se calcule justo en el mismo tag select donde se ordena a los Pokémons por nombre de la A-Z y de la Z-A.
 
-![Sin titulo](src/img/Sketch-2.JPG)
+![Sin titulo](src/img/img-readme/Sketch-2.JPG)
 
 
 ### Prototipo de alta fidelidad
@@ -152,10 +152,10 @@ Posterior al testeo estas personas nos dieron su opinión y nos dijeron qué deb
 Diseñamos un prototipo con la Herramienta [_Figma_](https://www.figma.com/)
 
 
-![Sin titulo](src/img/Protipo-1.PNG)
+![Sin titulo](src/img/img-readme/Protipo-1.PNG)
 
 
- ![Sin titulo](src/img/Prototipo-2.PNG)
+ ![Sin titulo](src/img/img-readme/Prototipo-2.PNG)
 
 ### Testeo de usabilidad
 
@@ -165,7 +165,7 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 * Y por último dar un color mas oscuro a los botones de tipos de Pokémons para hacer más contraste con las letras.
 ![Sin titulo](src/img/prototipo.gif)
 
-![Sin titulo](src/img/mobile.gif)
+![Sin titulo](src/img/img-readme/mobile.gif)
 
 ### Testeo de usabilidad
 

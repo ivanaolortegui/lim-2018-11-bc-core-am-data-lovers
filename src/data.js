@@ -4,7 +4,7 @@ const sortData = (data, sortBy, sortOrder) => {
   for (let i = 0; i < data.length; i++) {
     newArraySort.push(Object.assign({}, data[i]));	   
   }  
-
+  
   switch (sortOrder) {
   case 'asc':
     if (sortBy === 'name') {
@@ -54,3 +54,4 @@ window.dataPokemon = {
   computeStats,
   filterDataCandy, 
 };
+
