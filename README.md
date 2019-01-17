@@ -163,7 +163,7 @@ Al testear nuestro prototipo lo usuarios nos sugirieron las siguientes mejoras:
 * Hacer más interactivo el prototipo en especial la forma del select porque parecían ser varios select o botones.
 * Eliminar el botón de buscar porque al dar click en las opciones del select automáticamente se ordena.
 * Y por último dar un color mas oscuro a los botones de tipos de Pokémons para hacer más contraste con las letras.
-![Sin titulo](src/img/prototipo.gif)
+![Sin titulo](src/img/img-readme/prototipo.gif)
 
 ![Sin titulo](src/img/img-readme/mobile.gif)
 
@@ -181,16 +181,16 @@ Una vez realizados nuevos test, se concluye que es necesario:
 3. Y al exportar nos salió la opción para exportar todo el prototipo a Zeplin.
 4. Zeplin nos proporcionó indicaciones de estilo como: el alineado, su tamaño, tipografía y colores de cada elemento para agilizar el proceso de maquetación.
 [Link de Zeplin](https://zpl.io/29oKr6w).
-![Sin titulo](src/img/Exportacion-zeplin.png)
-![Sin titulo](src/img/Exportacion-zeplin-2.png)
-![Sin titulo](src/img/Exportacion-zeplin-3.png)
-![Sin titulo](src/img/Exportacion-zeplin-4.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin-2.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin-3.png)
+![Sin titulo](src/img/img-readme/Exportacion-zeplin-4.png)
  
 ### Paleta de Colores
 
 Nos guiamos del logo del juego Pókemon Go para definir la paleta de colores, este proceso fue apoyado con el uso de la herramienta de Adobe Color CC, importando la imagen del logo para obtener sus colores. **Y sus códigos Hex son:**.
 <!-- ![Sin titulo](src/img/Paleta-logo.png) -->
-![Sin titulo](src/img/Paleta-logo-2.png)
+![Sin titulo](src/img/img-readme/Paleta-logo-2.png)
 
 Se realizó otra iteración con otra imagen de fondo, se agregó un logo y una paleta de colores:
 [Link de Figma](https://www.figma.com/file/0gcygDZ86Prvn7Fi4tQ4CyjB/3ra-iteraci%C3%B3n-de-Pokemon-Lovers?node-id=33%3A13).
